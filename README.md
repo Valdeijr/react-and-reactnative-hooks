@@ -2,6 +2,34 @@
 
 Este repositório contém uma coletânea aprofundada de guias técnicos sobre os principais React Hooks, incluindo hooks nativos, avançados e customizados. O objetivo é oferecer uma base sólida para desenvolvedores que desejam dominar o comportamento interno dos hooks com foco em **boas práticas, performance e clareza técnica**.
 
+## 📂 Conteúdo do repositório
+
+Arquivos `hooks/use[name]-Guia-Completo.md` com guias individuais para cada hook,conforme listado na tabela abaixo:
+
+| Hook                     | Tipo                            | Status | Links |
+|--------------------------|----------------------------------|--------|-------|
+| `useState`               | Core                             | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useState-Guia-Completo.md) |
+| `useEffect`              | Core                             | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useEffect-Guia-Completo.md) |
+| `useCallback`            | Core                             | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useCallback-Guia-Completo.md) |
+| `useMemo`                | Core                             | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useMemo-Guia-Completo.md) |
+| `useRef`                 | Core                             | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useRef-Guia-Completo.md) |
+| `useLayoutEffect`        | Core                             | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useLayoutEffect-Guia-Completo.md) |
+| `useReducer`             | Core                             | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useReducer-Guia-Completo.md) |
+| `useContext`             | Core                             | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useContext-Guia-Completo.md) |
+| `useId`                  | Core (React 18+)                 | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useId-Guia-Completo.md) |
+| `useImperativeHandle`    | Avançado                         | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useImperativeHandle-Guia-Completo.md) |
+| `useTransition`          | Concurrent (React 18+)           | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useTransition-Guia-Completo.md) |
+| `useDeferredValue`       | Concurrent (React 18+)           | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useDeferredValue-Guia-Completo.md) |
+| `useInsertionEffect`     | Avançado (React 18+)             | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useInsertionEffect-Guia-Completo.md) |
+| `useSyncExternalStore`   | Avançado (gerência de estado ext)| ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useSyncExternalStore-Guia-Completo.md) |
+| `useDebugValue`          | DevTools                         | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useDebugValue-Guia-Completo.md) |
+| `useFocusEffect`         | React Navigation                 | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useFocusEffect-Guia-Completo.md) |
+| `useIsFocused`           | React Navigation                 | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useIsFocused-Guia-Completo.md) |
+| `useContextSelector`     | Experimental/Custom (Zustand, etc.) | ✅  | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useContextSelector-Guia-Completo.md) |
+| `useEvent`               | Experimental (React Canary)      | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useEvent-Guia-Completo.md) |
+| `useCallbackRef`         | Custom Hook Pattern              | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useCallbackRef-Guia-Completo.md) |
+| `useMountedRef`          | Custom Hook                      | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/useMountedRef-Guia-Completo.md) |
+| `usePrevious`            | Custom Hook                      | ✅     | [Link](https://github.com/Valdeijr/react-and-reactnative-hooks/blob/main/hooks/usePrevious-Guia-Completo.md) |
 
 ## 🧭 Estrutura sugerida para estudo
 
@@ -35,41 +63,11 @@ Este repositório contém uma coletânea aprofundada de guias técnicos sobre os
 21. `useIsFocused` – Monitoramento do foco da tela
 
 
-## 📂 Conteúdo do repositório
-
-Arquivos `hooks/use[name]-Guia-Completo.md` com guias individuais para cada hook,conforme listado na tabela abaixo:
-
-| Hook                     | Tipo                            | Status |
-|--------------------------|----------------------------------|--------|
-| `useState`               | Core                             | ✅     |
-| `useEffect`              | Core                             | ✅     |
-| `useCallback`            | Core                             | ✅     |
-| `useMemo`                | Core                             | ✅     |
-| `useRef`                 | Core                             | ✅     |
-| `useLayoutEffect`        | Core                             | ✅     |
-| `useReducer`             | Core                             | ✅     |
-| `useContext`             | Core                             | ✅     |
-| `useId`                  | Core (React 18+)                 | ✅     |
-| `useImperativeHandle`    | Avançado                         | ✅     |
-| `useTransition`          | Concurrent (React 18+)           | ✅     |
-| `useDeferredValue`       | Concurrent (React 18+)           | ✅     |
-| `useInsertionEffect`     | Avançado (React 18+)             | ✅     |
-| `useSyncExternalStore`   | Avançado (gerência de estado ext)| ✅     |
-| `useDebugValue`          | DevTools                         | ✅     |
-| `useFocusEffect`         | React Navigation                 | ✅     |
-| `useIsFocused`           | React Navigation                 | ✅     |
-| `useContextSelector`     | Experimental/Custom (Zustand, etc.) | ✅  |
-| `useEvent`               | Experimental (React Canary)      | ✅     |
-| `useCallbackRef`         | Custom Hook Pattern              | ✅     |
-| `useMountedRef`          | Custom Hook                      | ✅     |
-| `usePrevious`            | Custom Hook                      | ✅     |
-
 ## ✨ Objetivo
 
 > Estudar React não precisa ser por tentativa e erro.  
 > Compreender a fundo os hooks é dominar o ciclo de vida do seu componente,  
 > evitar bugs silenciosos e construir apps mais performáticos.
-
 
 <!-- ## 📬 Sugestões
 
